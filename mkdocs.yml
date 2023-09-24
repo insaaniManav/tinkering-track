@@ -1,0 +1,85 @@
+site_name: Tinkering Track
+nav:
+- Home: index.md
+- Basics of Electronics: 
+  - electronics_basics.md
+  - What is an LED: led_light.md
+  - Introduction to a breadboard: breadboard.md
+  - Introduction to circuits: circuits.md
+  - Digital and Analog Logic: digital_analog.md
+  - Getting started with the Pico: micro_controller.md
+
+- Projects: 
+    - Blinky: 
+       - projects/blinky.md
+    - Button to Blink LED:
+       - projects/button.md
+    - Traffic Light: projects/traffic_light.md
+    - Potentiometer: projects/potentiometer.md
+    - RGB LED: 
+      - projects/rgb_led/one_led_at_a_time.md
+      - projects/rgb_led/custom_mix.md
+    - Piezo Buzzer:
+      - projects/piezo_buzzer/how_sound_works.md
+      - projects/piezo_buzzer/pieze_buzzer.md
+      - projects/piezo_buzzer/music_using_potentiometer.md
+    - Ultrasonic Sensor:
+      - projects/ultrasonic_sensor/measuring_distance.md
+      - projects/ultrasonic_sensor/ultrasonic_sensor.md
+    - OLED Display:
+      - projects/oled_display/how_oled_works.md
+      - projects/oled_display/i2c.md
+      - projects/oled_display/reaction_game.md
+      - projects/oled_display_ultrasonic_sensor.md
+    - Musical Thermin:
+      - projects/thermin.md
+    - LDR:
+      - projects/ldr_led.md
+    - Intruder detection system:
+      - projects/intruder_detection.md 
+theme: 
+  name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/pycon-logo.png
+  favicon: assets/favicon.ico
+
