@@ -8,10 +8,16 @@
 
 ## Building on your own
 * Now let's refer to the old guide that we used to blink an LED and try to blink the RED LED on our own , now change the code to blink the green and then the yellow LED 
+
+
+Hints : Remember the code we just implemented for blinking the LED on the raspberry pi pico , in this case we are just blinking an LED connected to the Pico , well this is a similar LED just connected to a different Pin !!
+
+
+## Now let's have fun with more LEDs
 * Blink all the three LEDs together
 * Turn on Red , make the Red turn off , now turn on the yellow , turn it off and then turn on the green , turn it off . Repeat
 
-
+// TODO : Add this to the parents guide 
 ```python 
 from machine import Pin
 import utime

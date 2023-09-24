@@ -59,7 +59,6 @@ Imagine you have a magical button, and when you press it, a secret door opens. Y
 Step 2 - Write the Code: Here's what your code might look like:
 
 ```python
-Copy code
 from machine import Pin
 import time
 
