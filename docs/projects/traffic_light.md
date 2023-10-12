@@ -17,27 +17,4 @@ Hints : Remember the code we just implemented for blinking the LED on the raspbe
 * Blink all the three LEDs together
 * Turn on Red , make the Red turn off , now turn on the yellow , turn it off and then turn on the green , turn it off . Repeat
 
-// TODO : Add this to the parents guide 
-```python 
-from machine import Pin
-import utime
 
-red_led = machine.Pin(28, machine.Pin.OUT)
-yellow_led = machine.Pin(27, machine.Pin.OUT)
-green_led = machine.Pin(26, machine.Pin.OUT)
-
-
-while True:
-    red_led.value(1)
-    utime.sleep(0.5)
-    red_led.value(0)
-    utime.sleep(0.5)
-    yellow_led.value(1)
-    utime.sleep(0.5)
-    yellow_led.value(0)
-    utime.sleep(0.5)
-    green_led.value(1)
-    utime.sleep(0.5)
-    green_led.value(0)
-    utime.sleep(0.5)
-```

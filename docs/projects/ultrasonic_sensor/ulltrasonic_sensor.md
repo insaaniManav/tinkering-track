@@ -1,4 +1,4 @@
-## How Ultrasonic Sensors Work
+# How Ultrasonic Sensors Work
 You know how bats use squeaky sound waves to figure out where things are? Ultrasonic sensors work in a similar way!
 
 An ultrasonic sensor has two important parts:

@@ -1,4 +1,4 @@
-## Calculating Distance using sound
+# Calculating Distance using sound
 To calculate distance using ultrasound waves, we can use the speed formula:
 
 ```py

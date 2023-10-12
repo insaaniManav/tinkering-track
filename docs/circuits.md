@@ -1,4 +1,4 @@
-## What's a Circuit?
+# What's a Circuit?
 
 A circuit is a closed loop that allows electricity to move in a circle. Imagine it as a race track where tiny electric friends speed around. They start from one place, zoom around the track, and end up back where they started. This endless loop is what makes our gadgets and gizmos work!
 

@@ -5,9 +5,11 @@ nav:
   - electronics_basics.md
   - What is an LED: led_light.md
   - Introduction to a breadboard: breadboard.md
+  - Input and Output Devices: input_output.md
   - Introduction to circuits: circuits.md
   - Digital and Analog Logic: digital_analog.md
   - Getting started with the Pico: micro_controller.md
+  - Safety Tips: safety_tip.md
 
 - Projects: 
   - Basic Projects:
@@ -29,7 +31,7 @@ nav:
       - projects/piezo_buzzer/music_using_potentiometer.md
     - Ultrasonic Sensor:
       - projects/ultrasonic_sensor/measuring_distance.md
-      - projects/ultrasonic_sensor/ultrasonic_sensor.md
+      - projects/ultrasonic_sensor/ulltrasonic_sensor.md
       - projects/intruder_detection.md 
   - Advanced Projects:
     - OLED Display:
@@ -39,7 +41,9 @@ nav:
       - projects/oled_display_ultrasonic_sensor.md
     - Musical Thermin:
       - projects/thermin.md
-   
+plugins:
+  - search
+  - print-site
 theme: 
   name: material
   features:

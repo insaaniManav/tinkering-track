@@ -1,3 +1,4 @@
+# Build a reaction game
 Now lets build a small gamge
 * The game is a two player reaction game, whoever presses the button first and faster wins the game 
 
@@ -46,32 +47,4 @@ while True:
 * We earlier learnt how to use a pushbutton, Now Let's combine that with the knowledge of the OLED display to build a small game 
 * Our game will have 2 buttons , one for player 1 , other for player 2 . Whoever presses the button first, wins the game.
 
-// TODO: Explain this code
 
-```py
-from machine import Pin, I2C
-from ssd1306 import SSD1306_I2C
-import time
-
-button = Pin(17, Pin.IN, Pin.PULL_UP)
-button2 = Pin(16,Pin.IN, Pin.PULL_UP)
-led = Pin(25, Pin.OUT)
-
-WIDTH =128 
-HEIGHT= 64
-i2c=I2C(0,scl=Pin(1),sda=Pin(0),freq=200000)
-oled = SSD1306_I2C(WIDTH,HEIGHT,i2c)
-
-while True:
-    if button.value() == 0:
-        oled.fill(0)
-        oled.text("button1", 0, 0)
-        oled.show()
-        break
-
-    if button2.value() == 0:
-        oled.fill(0)
-        oled.text("button2", 0, 0)
-        oled.show()
-        break
-```

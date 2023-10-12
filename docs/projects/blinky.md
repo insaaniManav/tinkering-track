@@ -32,7 +32,8 @@ This line starts a loop, which is like a repeat button. It says, "Keep doing the
 ```python
     led.toggle()
 ``` 
-Inside the loop, we're telling the Pico to switch the LED on if it's off or off if it's on. It's like playing with a light switch – turning the light on and off.
+Inside the loop, we're telling the Pico to switch the LED on if it's off or off if it's on. It's like playing with a light switch – turning the light on and off. 
+Here the led is an object , python has objects similar to how we have 
 
 * Step 5: Sleeping (Waiting) for a Second
 

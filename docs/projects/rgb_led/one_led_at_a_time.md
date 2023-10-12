@@ -1,4 +1,4 @@
-### **Title: The Magic of RGB LEDs**
+# **Title: The Magic of RGB LEDs**
 
 An **RGB LED** is like a colorful mini-light that can shine in many different colors. It's like having a tiny rainbow in your electronics!
 
@@ -51,8 +51,3 @@ Add resistors: Place a resistor (220-330 ohms) between the anode and the 3.3v li
 Ground connection: Connect a jumper wire from the Raspberry Pi Pico's GND (ground) pin to the breadboard's ground rail if you're using one. If not, connect it directly to the LED's common anode.
 
 Now, you can write Python code to control the RGB LED using the GP IO pins you've connected to the individual colors. For example, to turn the LED red, you'd set the red GPIO pin to HIGH and the green and blue pins to LOW.
-
-// TODO: Add code for color mixing 
-
-```py
-```
